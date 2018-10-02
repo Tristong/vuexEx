@@ -27,7 +27,6 @@ export default {
         // SELECT
         loadColonies (state) {
             Axios
-            // .get("http://192.168.71.143/index.php", {
             .get("index.php", {
                 params: {
                     module: "ZMailInterface",
@@ -57,7 +56,6 @@ export default {
         // UPDATE
         updateColony (state, payload) {
             Axios
-            // .get("http://192.168.71.143/index.php", {
             .get("index.php", {
                 params: {
                     module: "ZMailInterface",
@@ -90,7 +88,6 @@ export default {
         // CREATE
         createColony (state, payload) {
             Axios
-            // .get("http://192.168.71.143/index.php", {
             .get("index.php", {
                 params: {
                     module: "ZMailInterface",
@@ -127,7 +124,6 @@ export default {
         },
         loadFSINRegions(state) {
             Axios
-            // .get("http://192.168.71.143/index.php", {
             .get("index.php", {
                 params: {
                     module: "ZMailInterface",
@@ -152,7 +148,6 @@ export default {
         },
         loadFSINColonies(state, payload) {
             Axios
-            // .get("http://192.168.71.143/index.php", {
             .get("index.php", {
                 params: {
                     module: "ZMailInterface",

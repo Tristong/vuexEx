@@ -19,7 +19,6 @@ export default {
       // SELECT
       loadRates (state) {
           Axios
-        //   .get("http://192.168.71.143/index.php", {
         .get("index.php", {
               params: {
                   module: "ZMailInterface",
@@ -48,7 +47,6 @@ export default {
        // UPDATE
        updateRate (state, payload) {
             Axios
-            // .get("http://192.168.71.143/index.php", {
             .get("index.php", {
                 params: {
                     module: "ZMailInterface",
@@ -84,7 +82,6 @@ export default {
         // CREATE
        createRate (state, payload) {
             Axios
-            // .get("http://192.168.71.143/index.php", {
             .get("index.php", {
                 params: {
                     module: "ZMailInterface",
